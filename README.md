@@ -1,25 +1,26 @@
-# 🌦️ Dynamic Weather Dashboard
+# Weather Forecast Dashboard
 
-Ek interactive aur visually appealing Weather Application, jo real-time weather data aur 7-day forecast dikhati hai. Isme weather conditions ke hisaab se dynamic animations aur UI themes shamil hain.
+A web-based weather application that provides real-time weather updates, hourly forecasts, and 7-day weather trends using the OpenWeatherMap API.
 
-## 🚀 Key Features
-- **Real-Time Data:** Live temperature, humidity, aur wind speed ki jaankari.
-- **Dynamic UI:** Mausam ke mutabik background aur icon badalne wala smart interface.
-- **Visual Effects:**
-  - 🌧️ **Rain/Storm:** Barish aur toofan ke liye realistic rain animation.
-  - ❄️ **Snow:** Thande mausam ke liye snowfall animation.
-  - ⚡ **Lightning:** Thunderstorms ke liye shake aur lightning triggers.
-- **Forecasting:** 6-hour hourly forecast aur 7-day extended daily forecast.
-- **Unit Conversion:** Celsius (°C) aur Fahrenheit (°F) ke beech aasani se switch karein.
-- **Auto-Location:** Default location (Ghaziabad) se start hota hai, user apni pasand ka shehar search kar sakta hai.
+## Features
 
-## 🛠️ Technologies Used
-- **Frontend:** HTML5, CSS3 (Flexbox/Grid), JavaScript (ES6+).
-- **API:** [OpenWeatherMap API](https://openweathermap.org/api) ka upyog real-time data fetch karne ke liye.
-- **Animations:** CSS Keyframes aur JavaScript-based DOM manipulation.
+* **Real-Time Weather:** Get current temperature, humidity, and wind speed data for any city.
+* **Forecasts:** View 6-hour hourly updates and a 7-day daily weather summary.
+* **Responsive Design:** Optimized for both desktop and mobile screens.
+* **Theme Support:** Dynamic background changes based on day and night cycles.
+* **Unit Conversion:** Easily switch between Celsius and Fahrenheit.
+* **Interactive Effects:** Built-in animations for rain, snow, and thunderstorms.
 
-## 📂 Project Structure
+## Technologies Used
+
+* **Frontend:** HTML5, CSS3, JavaScript (ES6+).
+* **API:** OpenWeatherMap API.
+* **Styling:** Custom CSS animations and responsive layouts.
+
+## Project Structure
+
 ```text
-├── index.html       # Main UI structure
-├── style.css        # Animations, layouts aur themes
-└── script.js        # API calls, logic aur dynamic rendering
+weather-app-project/
+├── index.html       # Main application layout
+├── style.css        # Styles and visual animations
+└── script.js        # API integration and core logic
